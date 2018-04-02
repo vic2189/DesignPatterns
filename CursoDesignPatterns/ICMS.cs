@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace CursoDesignPatterns
 {
-    class Program
+    public class ICMS
     {
-        static void Main(string[] args)
+        public double CalculaICMS(Orcamento orcamento)
         {
-
+            return orcamento.Valor + 0.1;
         }
+
     }
 }

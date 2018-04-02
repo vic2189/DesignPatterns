@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace CursoDesignPatterns
 {
-    class Program
+    public class Orcamento
     {
-        static void Main(string[] args)
-        {
+        public double Valor { get; private set; }
 
+        public Orcamento(double valor)
+        {
+            this.Valor = valor;
         }
+
     }
 }
